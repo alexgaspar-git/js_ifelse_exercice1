@@ -2,14 +2,14 @@
 
 // 1. ### Via un console.log() vérifie l'egalité entre 1 et "1"
 
-if (1 == 1) {
+if (1 == "1") {
     console.log("oui");
 }
 
 // 2. ### Via un console.log() vérifie l'egalité STRICTE entre 1 et "1"
 
-if (1 === 1) {
-    console.log("oui!");
+if (1 === "1") {
+    console.log(":(");
 }
 // 3. ### Créer un programme qui demande le prénom d'une personne, si le prénom de la personne comporte moins de 5 caractères, affichée une alerte avec comme message " Ton nom est trop court "
 
@@ -43,17 +43,32 @@ if (1 === 1) {
 // 6. ### Créer un programme qui permet d'ajouter des elements dans un tableau via des prompts quand le tableau contient 3 éléments, renvoyez une alerte avec le contenu du tableau
 
 // let tablo = [];
+// let ask;
 
-
-// if (tablo.length != 3) {
-//     tablo.push(prompt("gimme more"));
-//     tablo.push(prompt("mooaar"));
-//     tablo.push(prompt("aaaaaa"));
-
-// } else if (tablo.length == 3) {
-//     alert(tablo);
+// if (tablo.length == 3) {
+//     alert(tablo)
+// } else {
+//     ask = prompt('Entrez un element?');
+//     tablo.push(ask);
 // }
-
+// if (tablo.length == 3) {
+//     alert(tablo)
+// } else {
+//     ask = prompt('Entrez un element?');
+//     tablo.push(ask);
+// }
+// if (tablo.length == 3) {
+//     alert(tablo)
+// } else {
+//     ask = prompt('Entrez un element?');
+//     tablo.push(ask);
+// }
+// if (tablo.length == 3) {
+//     alert(tablo)
+// } else {
+//     ask = prompt('Entrez un element?');
+//     tablo.push(ask);
+// }
 
 // 7. ### Créer un programme qui permet a l'utilisateur de mettre des chiffres dans des bacs, si le chiffre est plus grand ou égal à 12 il va dans le bac "grandNombres" si il est plus petit que 12 il va dans le bac "petitNombres" affiche ensuite une seule alerte avec le contenu des deux bacs
 
@@ -81,4 +96,10 @@ if (1 === 1) {
 // S'il répond jeudi et vendredi, le programme lui répond via une console.log qu'ils sont en présentielle.
 // S'il répond autre chose que ces 5 propositions, le programme lui répond que sa demande est érronée.
 
-//
+// let jour = prompt("donne jour");
+
+// if (jour == "lundi" || jour == "mardi" || jour == "mercredi") {
+//     console.log("i lerningue");
+// } else if (jour == "jeudi" || jour == "vendredi") {
+//     console.log("prenentiol");
+// }
